@@ -1,33 +1,47 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/main.css" , type="text/css" , rel="stylesheet">
-    <title>LandChit-Bots</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Landchit | Discord Bots</title>
 </head>
 
 <body>
-    <div class="topBar">
-        LandChitBots
-    </div>
-    <div class="content">
-        <div class="flex">
-            <div class="flex-item">
-                <center>
-                    <img src="assets/Jotter.png" alt="bot logo" class="botLOGO">
-                    <p class="botname">Jotter</p>
-                    <p class="description">A bot that will help you keep track of word definitions</p>
-                    <a href="https://discord.com/api/oauth2/authorize?client_id=1044939179429203988&permissions=414464629760&scope=bot%20applications.commands"
-                        target="_blank"
-                        class="notabot">Invite</a>
-                </center>
+    <div class="root">
+        <nav>
+            <img src="https://avatars.githubusercontent.com/u/78423278?v=4" style="border-radius: 50%;" 
+            onclick="window.location.href='https://landchit.github.io';">
+            <span class="cursor"
+            onclick="window.location.href='https://landchit.github.io';">&nbsp;LandChit</span>
+            <span>&nbsp; | Discord Bots</span>
+        </nav>
+
+        <div class="container">
+            <div class="item">
+                <img class="logo" style="border: 2px solid black;" 
+                src="assets/imgs/Jotter.png">
+                <h1 style="margin-top:10px">Jotter</h1>
+                <p style="font-style: italic;">
+                    This discord bot can be used as a notebook... to keep track of word definitions
+                </p>
+                <a class="invitelink" target="_blank"
+                href="https://discord.com/api/oauth2/authorize?client_id=1044939179429203988&permissions=414464629760&scope=bot%20applications.commands">
+                    Invite
+                </a>
             </div>
+
 
         </div>
     </div>
-    <div style="display:block;width:100%;text-align:center;background-color:rgb(4, 27, 123);position:fixed;bottom:0;">UPDATING SOON</div>
+    
+    <!-- FROM CodeCeTra -->
+    <div id="particles-js"></div>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!--  -->
 </body>
 
 </html>
